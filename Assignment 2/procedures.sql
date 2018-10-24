@@ -40,7 +40,7 @@ end //
 DELIMITER //
 CREATE or replace procedure emptycart()
 BEGIN
-TRUNCATE TABLE cart
+Delete TABLE cart
 END //
 DELIMITER ;
 
